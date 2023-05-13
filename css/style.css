@@ -46,8 +46,22 @@ header{
 }
 .cgt-underline{
     display: inline-block;
-    height: 7px;
+    height: 5px;
     width: 80px;
     background-color: #fc7805;
     border-radius: 4px;
+    margin-bottom: 60px;
+}
+.ctg-image{
+    display: block;
+    margin: 0 auto;
+}
+.ctg-img{
+    box-shadow: 0 0 10px lightgray;
+    padding: 40px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+footer{
+    margin-top: 60px;
 }
