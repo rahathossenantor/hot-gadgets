@@ -1,3 +1,53 @@
 header{
     margin-bottom: 40px;
 }
+.buy-now{
+    background-color: black;
+    color: white;
+}
+.buy-now:hover{
+    background-color: #f9ad4b;
+    color: #060000;
+}
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fc7805;
+}
+.description-text, .card-text{
+    color: gray;
+}
+.products-title{
+    margin-top: 60px;
+}
+.products-title a{
+    text-decoration: none;
+    color: #f9ad4b;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.card{
+    box-shadow: 0 0 10px lightgray;
+    border-radius: 10px;
+    border: none;
+    padding-top: 20px;
+}
+.card img{
+    width: 70%;
+    margin: 0 auto;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+    margin-bottom: 30px;
+}
+.cgt-underline{
+    display: inline-block;
+    height: 7px;
+    width: 80px;
+    background-color: #fc7805;
+    border-radius: 4px;
+}
